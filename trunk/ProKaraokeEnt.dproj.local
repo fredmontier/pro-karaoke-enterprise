@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2011/11/05 15:14:20.613.dproj,D:\OTHERS\KaraokeEnterprise\ProKaraokeEnt.dproj=C:\Users\axioo\Documents\RAD Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2011/11/19 23:49:59.196.pas,D:\OTHERS\KaraokeEnterprise\u_record.pas=D:\OTHERS\KaraokeEnterprise\Unit2.pas</Transaction>
+    <Transaction>2011/11/19 23:49:59.206.dfm,D:\OTHERS\KaraokeEnterprise\u_record.dfm=D:\OTHERS\KaraokeEnterprise\Unit2.dfm</Transaction>
+    <Transaction>2011/12/16 14:07:40.722.pas,D:\SOUNDLAB\KaraokeEnterprise\uPopup.pas=D:\SOUNDLAB\KaraokeEnterprise\Unit2.pas</Transaction>
+    <Transaction>2011/12/16 14:07:40.722.dfm,D:\SOUNDLAB\KaraokeEnterprise\uPopup.dfm=D:\SOUNDLAB\KaraokeEnterprise\Unit2.dfm</Transaction>
+    <Transaction>2011/12/17 09:30:20.324.pas,D:\PROJECTS\SOUNDLAB\KaraokeEnterprise\uPassword.pas=D:\PROJECTS\SOUNDLAB\KaraokeEnterprise\Unit2.pas</Transaction>
+    <Transaction>2011/12/17 09:30:20.324.dfm,D:\PROJECTS\SOUNDLAB\KaraokeEnterprise\uPassword.dfm=D:\PROJECTS\SOUNDLAB\KaraokeEnterprise\Unit2.dfm</Transaction>
+    <Transaction>2011/12/17 15:42:00.288.dfm,D:\PROJECTS\SOUNDLAB\KaraokeEnterprise\uFood.dfm=D:\PROJECTS\SOUNDLAB\KaraokeEnterprise\Unit2.dfm</Transaction>
+    <Transaction>2011/12/17 15:42:00.288.pas,D:\PROJECTS\SOUNDLAB\KaraokeEnterprise\uFood.pas=D:\PROJECTS\SOUNDLAB\KaraokeEnterprise\Unit2.pas</Transaction>
+    <Transaction>2012/01/14 08:51:12.409.pas,E:\Downloads\KaraokeEnterprise\pnglang.pas=</Transaction>
+    <Transaction>2012/01/14 08:51:14.394.pas,E:\Downloads\KaraokeEnterprise\pngimage.pas=</Transaction>
+    <Transaction>2012/01/14 08:51:17.226.pas,E:\Downloads\KaraokeEnterprise\pngextra.pas=</Transaction>
+    <Transaction>2012/02/11 13:22:03.383.dfm,E:\Downloads\KARAOKE SOUNDLAB\KaraokeEnterprise\u_Help.dfm=E:\Downloads\KARAOKE SOUNDLAB\KaraokeHome\u_Help.dfm</Transaction>
+    <Transaction>2012/02/11 13:22:03.383.pas,E:\Downloads\KARAOKE SOUNDLAB\KaraokeEnterprise\u_Help.pas=E:\Downloads\KARAOKE SOUNDLAB\KaraokeHome\u_Help.pas</Transaction>
+    <Transaction>2012/02/11 13:59:36.513.pas,E:\Downloads\KARAOKE SOUNDLAB\KaraokeEnterprise\uPopup.pas=</Transaction>
+    <Transaction>2012/02/11 13:59:36.513.dfm,E:\Downloads\KARAOKE SOUNDLAB\KaraokeEnterprise\uPopup.dfm=</Transaction>
+    <Transaction>2012/02/11 13:59:58.454.dfm,E:\Downloads\KARAOKE SOUNDLAB\KaraokeEnterprise\uPopup.dfm=E:\Downloads\KARAOKE SOUNDLAB\KaraokeHome\uPopup.dfm</Transaction>
+    <Transaction>2012/02/11 13:59:58.454.pas,E:\Downloads\KARAOKE SOUNDLAB\KaraokeEnterprise\uPopup.pas=E:\Downloads\KARAOKE SOUNDLAB\KaraokeHome\uPopup.pas</Transaction>
+    <Transaction>2012/03/15 20:43:11.667.pas,E:\Downloads\KARAOKE SOUNDLAB\KaraokeEnterprise\uSplashScreen.pas=E:\Downloads\KARAOKE SOUNDLAB\KaraokeServer\uSplashScreen.pas</Transaction>
+    <Transaction>2012/03/15 20:43:11.667.dfm,E:\Downloads\KARAOKE SOUNDLAB\KaraokeEnterprise\uSplashScreen.dfm=E:\Downloads\KARAOKE SOUNDLAB\KaraokeServer\uSplashScreen.dfm</Transaction>
+    <Transaction>2012/04/02 21:56:36.000.549,D:\PROJECTS\SOUNDLAB FULL\KaraokeEnterprise\uFoodx.dfm=D:\PROJECTS\SOUNDLAB FULL\KaraokeEnterprise\uFood.dfm</Transaction>
+    <Transaction>2012/04/02 21:56:36.000.539,D:\PROJECTS\SOUNDLAB FULL\KaraokeEnterprise\uFoodx.pas=D:\PROJECTS\SOUNDLAB FULL\KaraokeEnterprise\uFood.pas</Transaction>
+    <Transaction>2012/04/02 22:03:39.000.411,=D:\PROJECTS\SOUNDLAB FULL\KaraokeEnterprise\uFood.pas</Transaction>
+    <Transaction>2012/04/03 20:54:51.000.037,D:\PROJECTS\SOUNDLAB FULL\KaraokeEnterprise\uFoodx.pas=</Transaction>
+    <Transaction>2012/04/08 18:02:53.000.065,C:\Users\IT-TEDI\Documents\ProKaraoke 04.04.2012\KaraokeEnterprise\u_login.pas=</Transaction>
+    <Transaction>2012/04/24 08:04:41.000.397,=C:\Users\IT-TEDI\Documents\ProKaraoke 04.04.2012\KaraokeEnterprise\Unit2.pas</Transaction>
+    <Transaction>2012/04/24 08:05:15.000.394,C:\Users\IT-TEDI\Documents\ProKaraoke 04.04.2012\KaraokeEnterprise\uAddHour.pas=C:\Users\IT-TEDI\Documents\ProKaraoke 04.04.2012\KaraokeEnterprise\Unit2.pas</Transaction>
+    <Transaction>2012/04/24 08:05:15.000.394,C:\Users\IT-TEDI\Documents\ProKaraoke 04.04.2012\KaraokeEnterprise\uAddHour.dfm=C:\Users\IT-TEDI\Documents\ProKaraoke 04.04.2012\KaraokeEnterprise\Unit2.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

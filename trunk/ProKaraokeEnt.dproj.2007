@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{d2015dbb-346d-453f-8475-2d3f7403e383}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+    <DCC_DependencyCheckOutputName>D:\APP\ProKaraoke Home\ProKaraokeEnt.exe</DCC_DependencyCheckOutputName>
+    <MainSource>ProKaraokeEnt.dpr</MainSource>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_DebugInformation>False</DCC_DebugInformation>
+    <DCC_LocalDebugSymbols>False</DCC_LocalDebugSymbols>
+    <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+    <DCC_Define>RELEASE</DCC_Define>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_Define>DEBUG</DCC_Define>
+    <DCC_ExeOutput>D:\APP\ProKaraoke Home</DCC_ExeOutput>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Delphi.Personality</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+<BorlandProject><Delphi.Personality><Parameters><Parameters Name="UseLauncher">False</Parameters><Parameters Name="LoadAllSymbols">True</Parameters><Parameters Name="LoadUnspecifiedSymbols">False</Parameters></Parameters><VersionInfo><VersionInfo Name="IncludeVerInfo">True</VersionInfo><VersionInfo Name="AutoIncBuild">False</VersionInfo><VersionInfo Name="MajorVer">1</VersionInfo><VersionInfo Name="MinorVer">0</VersionInfo><VersionInfo Name="Release">0</VersionInfo><VersionInfo Name="Build">5</VersionInfo><VersionInfo Name="Debug">False</VersionInfo><VersionInfo Name="PreRelease">False</VersionInfo><VersionInfo Name="Special">False</VersionInfo><VersionInfo Name="Private">False</VersionInfo><VersionInfo Name="DLL">False</VersionInfo><VersionInfo Name="Locale">1033</VersionInfo><VersionInfo Name="CodePage">1252</VersionInfo></VersionInfo><VersionInfoKeys><VersionInfoKeys Name="CompanyName">Soundlab Indonesia</VersionInfoKeys><VersionInfoKeys Name="FileDescription"></VersionInfoKeys><VersionInfoKeys Name="FileVersion">1.0.0.5</VersionInfoKeys><VersionInfoKeys Name="InternalName"></VersionInfoKeys><VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys><VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys><VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys><VersionInfoKeys Name="ProductName">ProKaraoke Enterprise v4</VersionInfoKeys><VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys><VersionInfoKeys Name="Comments"></VersionInfoKeys></VersionInfoKeys><Excluded_Packages>
+      <Excluded_Packages Name="G:\SOWTWARE\PROGRAMMING TOOLS\Component\FastReport 4.5 Full Source\LibD11\dclfrxTee11.bpl">FastReport 4.0 Tee Components</Excluded_Packages>
+      <Excluded_Packages Name="$(BDS)\bin\dcloffice2k100.bpl">Microsoft Office 2000 Sample Automation Server Wrapper Components</Excluded_Packages>
+      <Excluded_Packages Name="$(BDS)\bin\dclofficexp100.bpl">Microsoft Office XP Sample Automation Server Wrapper Components</Excluded_Packages>
+      <Excluded_Packages Name="G:\SOWTWARE\PROGRAMMING TOOLS\Component\FastReport 4.5 Full Source\LibD11\dclfrxDB11.bpl">FastReport 4.0 DB Components</Excluded_Packages>
+      <Excluded_Packages Name="G:\SOWTWARE\PROGRAMMING TOOLS\Component\FastReport 4.5 Full Source\LibD11\dclfrxe11.bpl">FastReport 4.0 Exports</Excluded_Packages>
+      <Excluded_Packages Name="G:\SOWTWARE\PROGRAMMING TOOLS\Component\FastReport 4.5 Full Source\LibD11\dclfsADO11.bpl">FastScript 1.9 ADO Components</Excluded_Packages>
+      <Excluded_Packages Name="G:\SOWTWARE\PROGRAMMING TOOLS\Component\FastReport 4.5 Full Source\LibD11\dclfsDB11.bpl">FastScript 1.9 DB Components</Excluded_Packages>
+      <Excluded_Packages Name="G:\SOWTWARE\PROGRAMMING TOOLS\Component\FastReport 4.5 Full Source\LibD11\dclfsIBX11.bpl">FastScript 1.9 IBX Components</Excluded_Packages>
+      <Excluded_Packages Name="C:\Program Files\Developer Express Inc\Library\Delphi11\dcldxMasterViewD11.bpl">File C:\Program Files\Developer Express Inc\Library\Delphi11\dcldxMasterViewD11.bpl not found</Excluded_Packages>
+    </Excluded_Packages><Source><Source Name="MainSource">ProKaraokeEnt.dpr</Source></Source></Delphi.Personality></BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Import Project="$(MSBuildBinPath)\Borland.Delphi.Targets" />
+  <ItemGroup>
+    <DelphiCompile Include="ProKaraokeEnt.dpr">
+      <MainSource>MainSource</MainSource>
+    </DelphiCompile>
+    <DCCReference Include="uFood.pas">
+      <Form>FrmFood</Form>
+    </DCCReference>
+    <DCCReference Include="uPassword.pas">
+      <Form>FrmPassword</Form>
+    </DCCReference>
+    <DCCReference Include="uPopup.pas">
+      <Form>FrmPupop</Form>
+    </DCCReference>
+    <DCCReference Include="uSplashScreen.pas">
+      <Form>FrmSpalshScreen</Form>
+    </DCCReference>
+    <DCCReference Include="u_dm.pas">
+      <Form>dm</Form>
+    </DCCReference>
+    <DCCReference Include="u_effect.pas">
+      <Form>f_effect</Form>
+    </DCCReference>
+    <DCCReference Include="u_Help.pas">
+      <Form>frm_Help</Form>
+    </DCCReference>
+    <DCCReference Include="u_layar.pas">
+      <Form>Form3</Form>
+    </DCCReference>
+    <DCCReference Include="u_login.pas">
+      <Form>f_login</Form>
+    </DCCReference>
+    <DCCReference Include="u_main.pas">
+      <Form>Form1</Form>
+    </DCCReference>
+    <DCCReference Include="u_open_song.pas">
+      <Form>f_open_song</Form>
+    </DCCReference>
+    <DCCReference Include="u_pesan.pas">
+      <Form>f_pesan</Form>
+    </DCCReference>
+    <DCCReference Include="u_record.pas">
+      <Form>FrmRecord</Form>
+    </DCCReference>
+    <DCCReference Include="u_request.pas">
+      <Form>f_request</Form>
+    </DCCReference>
+    <DCCReference Include="u_saran.pas">
+      <Form>f_saran</Form>
+    </DCCReference>
+    <DCCReference Include="u_save_so-ng.pas">
+      <Form>f_save_song</Form>
+    </DCCReference>
+    <DCCReference Include="u_save_song.pas">
+      <Form>f_save_song</Form>
+    </DCCReference>
+    <DCCReference Include="xVideo.pas" />
+  </ItemGroup>
+</Project>
