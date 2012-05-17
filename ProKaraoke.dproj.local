@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2011/07/29 14:09:02.000.546,D:\ProKar\Home\u_saran1.dfm=D:\ProKar\Home\u_saran.dfm</Transaction>
+    <Transaction>2011/07/29 14:09:02.000.546,D:\ProKar\Home\u_saran1.pas=D:\ProKar\Home\u_saran.pas</Transaction>
+    <Transaction>2011/07/29 14:16:15.000.484,D:\ProKar\Home\u_pesan.pas=D:\ProKar\Home\u_saran1.pas</Transaction>
+    <Transaction>2011/07/29 14:16:15.000.484,D:\ProKar\Home\u_pesan.dfm=D:\ProKar\Home\u_saran1.dfm</Transaction>
+    <Transaction>2011/07/29 14:21:40.000.703,=D:\ProKar\Home\u_saran.pas</Transaction>
+    <Transaction>2011/08/21 15:06:36.000.702,=D:\Baru\Home\Unit2.pas</Transaction>
+    <Transaction>2011/08/21 15:07:54.000.356,D:\Baru\Home\Unit2.pas=D:\Baru\Home\u_request.pas</Transaction>
+    <Transaction>2011/08/21 15:07:54.000.356,D:\Baru\Home\Unit2.dfm=D:\Baru\Home\u_request.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

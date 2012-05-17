@@ -1,0 +1,165 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{d2015dbb-346d-453f-8475-2d3f7403e383}</ProjectGuid>
+			<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+			<DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+			<DCC_DependencyCheckOutputName>D:\APP\ProKaraoke Home\ProKaraokeEnt.exe</DCC_DependencyCheckOutputName>
+			<MainSource>ProKaraokeEnt.dpr</MainSource>
+			<ProjectVersion>12.3</ProjectVersion>
+			<Base>True</Base>
+			<Config Condition="'$(Config)'==''">Debug</Config>
+			<Platform>Win32</Platform>
+			<AppType>Application</AppType>
+			<FrameworkType>VCL</FrameworkType>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Release' or '$(Cfg_1)'!=''">
+			<Cfg_1>true</Cfg_1>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Debug' or '$(Cfg_2)'!=''">
+			<Cfg_2>true</Cfg_2>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Base)'!=''">
+			<DCC_UnitAlias>WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE;$(DCC_UnitAlias)</DCC_UnitAlias>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_1)'!=''">
+			<Version>7.0</Version>
+			<DCC_DebugInformation>False</DCC_DebugInformation>
+			<DCC_LocalDebugSymbols>False</DCC_LocalDebugSymbols>
+			<DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+			<DCC_Define>RELEASE;$(DCC_Define)</DCC_Define>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_2)'!=''">
+			<DCC_ExeOutput>C:\Program Files\ProKaraokeEnterprisePlayer</DCC_ExeOutput>
+			<Version>7.0</Version>
+			<DCC_Define>DEBUG;$(DCC_Define)</DCC_Define>
+		</PropertyGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Delphi.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Delphi.Personality>
+					<Parameters/>
+					<VersionInfo>
+						<VersionInfo Name="IncludeVerInfo">True</VersionInfo>
+						<VersionInfo Name="AutoIncBuild">False</VersionInfo>
+						<VersionInfo Name="MajorVer">1</VersionInfo>
+						<VersionInfo Name="MinorVer">0</VersionInfo>
+						<VersionInfo Name="Release">0</VersionInfo>
+						<VersionInfo Name="Build">5</VersionInfo>
+						<VersionInfo Name="Debug">False</VersionInfo>
+						<VersionInfo Name="PreRelease">False</VersionInfo>
+						<VersionInfo Name="Special">False</VersionInfo>
+						<VersionInfo Name="Private">False</VersionInfo>
+						<VersionInfo Name="DLL">False</VersionInfo>
+						<VersionInfo Name="Locale">1033</VersionInfo>
+						<VersionInfo Name="CodePage">1252</VersionInfo>
+					</VersionInfo>
+					<VersionInfoKeys>
+						<VersionInfoKeys Name="CompanyName">Soundlab Indonesia</VersionInfoKeys>
+						<VersionInfoKeys Name="FileDescription"/>
+						<VersionInfoKeys Name="FileVersion">1.0.0.5</VersionInfoKeys>
+						<VersionInfoKeys Name="InternalName"/>
+						<VersionInfoKeys Name="LegalCopyright"/>
+						<VersionInfoKeys Name="LegalTrademarks"/>
+						<VersionInfoKeys Name="OriginalFilename"/>
+						<VersionInfoKeys Name="ProductName">ProKaraoke Enterprise v4</VersionInfoKeys>
+						<VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys>
+						<VersionInfoKeys Name="Comments"/>
+					</VersionInfoKeys>
+					<Excluded_Packages>
+						<Excluded_Packages Name="G:\SOWTWARE\PROGRAMMING TOOLS\Component\FastReport 4.5 Full Source\LibD11\dclfrxTee11.bpl">FastReport 4.0 Tee Components</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\dcloffice2k100.bpl">Microsoft Office 2000 Sample Automation Server Wrapper Components</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\dclofficexp100.bpl">Microsoft Office XP Sample Automation Server Wrapper Components</Excluded_Packages>
+						<Excluded_Packages Name="G:\SOWTWARE\PROGRAMMING TOOLS\Component\FastReport 4.5 Full Source\LibD11\dclfrxDB11.bpl">FastReport 4.0 DB Components</Excluded_Packages>
+						<Excluded_Packages Name="G:\SOWTWARE\PROGRAMMING TOOLS\Component\FastReport 4.5 Full Source\LibD11\dclfrxe11.bpl">FastReport 4.0 Exports</Excluded_Packages>
+						<Excluded_Packages Name="G:\SOWTWARE\PROGRAMMING TOOLS\Component\FastReport 4.5 Full Source\LibD11\dclfsADO11.bpl">FastScript 1.9 ADO Components</Excluded_Packages>
+						<Excluded_Packages Name="G:\SOWTWARE\PROGRAMMING TOOLS\Component\FastReport 4.5 Full Source\LibD11\dclfsDB11.bpl">FastScript 1.9 DB Components</Excluded_Packages>
+						<Excluded_Packages Name="G:\SOWTWARE\PROGRAMMING TOOLS\Component\FastReport 4.5 Full Source\LibD11\dclfsIBX11.bpl">FastScript 1.9 IBX Components</Excluded_Packages>
+						<Excluded_Packages Name="C:\Program Files\Developer Express Inc\Library\Delphi11\dcldxMasterViewD11.bpl">File C:\Program Files\Developer Express Inc\Library\Delphi11\dcldxMasterViewD11.bpl not found</Excluded_Packages>
+					</Excluded_Packages>
+					<Source>
+						<Source Name="MainSource">ProKaraokeEnt.dpr</Source>
+					</Source>
+				</Delphi.Personality>
+				<Platforms>
+					<Platform value="Win32">True</Platform>
+				</Platforms>
+			</BorlandProject>
+			<ProjectFileVersion>12</ProjectFileVersion>
+		</ProjectExtensions>
+		<ItemGroup>
+			<DelphiCompile Include="ProKaraokeEnt.dpr">
+				<MainSource>MainSource</MainSource>
+			</DelphiCompile>
+			<DCCReference Include="u_dm.pas">
+				<Form>dm</Form>
+				<DesignClass>TDataModule</DesignClass>
+			</DCCReference>
+			<DCCReference Include="u_effect.pas">
+				<Form>f_effect</Form>
+			</DCCReference>
+			<DCCReference Include="u_layar.pas">
+				<Form>Form3</Form>
+			</DCCReference>
+			<DCCReference Include="u_main.pas">
+				<Form>Form1</Form>
+			</DCCReference>
+			<DCCReference Include="u_open_song.pas">
+				<Form>f_open_song</Form>
+			</DCCReference>
+			<DCCReference Include="u_pesan.pas">
+				<Form>f_pesan</Form>
+			</DCCReference>
+			<DCCReference Include="u_request.pas">
+				<Form>f_request</Form>
+			</DCCReference>
+			<DCCReference Include="u_saran.pas">
+				<Form>f_saran</Form>
+			</DCCReference>
+			<DCCReference Include="u_save_song.pas">
+				<Form>f_save_song</Form>
+			</DCCReference>
+			<DCCReference Include="xVideo.pas"/>
+			<DCCReference Include="u_record.pas">
+				<Form>FrmRecord</Form>
+			</DCCReference>
+			<DCCReference Include="uPassword.pas">
+				<Form>FrmPassword</Form>
+			</DCCReference>
+			<DCCReference Include="u_Help.pas">
+				<Form>frm_Help</Form>
+			</DCCReference>
+			<DCCReference Include="uPopup.pas">
+				<Form>FrmPupop</Form>
+			</DCCReference>
+			<DCCReference Include="uSplashScreen.pas">
+				<Form>FrmSpalshScreen</Form>
+			</DCCReference>
+			<DCCReference Include="uFood.pas">
+				<Form>FrmFood</Form>
+			</DCCReference>
+			<DCCReference Include="uAddHour.pas">
+				<Form>FrmAddHour</Form>
+			</DCCReference>
+			<BuildConfiguration Include="Debug">
+				<Key>Cfg_2</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Base">
+				<Key>Base</Key>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Release">
+				<Key>Cfg_1</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+		</ItemGroup>
+		<Import Condition="Exists('$(BDS)\Bin\CodeGear.Delphi.Targets')" Project="$(BDS)\Bin\CodeGear.Delphi.Targets"/>
+		<Import Condition="Exists('$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj')" Project="$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj"/>
+	</Project>
