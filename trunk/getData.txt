@@ -1,0 +1,36 @@
+ALTER DATABASE integrated CHARACTER SET utf8 COLLATE utf8_general_ci;
+ALTER TABLE song_list CHARACTER SET utf8 COLLATE utf8_general_ci;
+
+drop procedure if exists AddColumnUnlessExists;
+create procedure AddColumnUnlessExists(
+	IN dbName tinytext,
+	IN tableName tinytext,
+	IN fieldName tinytext,
+	IN fieldDef text)
+begin
+	IF NOT EXISTS (
+		SELECT * FROM information_schema.COLUMNS
+		WHERE column_name=fieldName
+		and table_name=tableName
+		and table_schema=dbName
+		)
+	THEN
+		set @ddl=CONCAT('ALTER TABLE ',dbName,'.',tableName,
+			' ADD COLUMN ',fieldName,' ',fieldDef);
+		prepare stmt from @ddl;
+		execute stmt;
+	END IF;
+end;
+
+CALL AddColumnUnlessExists('integrated','room_hist','id','int(11) NOT NULL AUTO_INCREMENT KEY FIRST');
+CALL AddColumnUnlessExists('integrated','room_hist','durasi','FLOAT not null DEFAULT ''0'' ');
+
+drop table song_list_unicode;
+CREATE TABLE `song_list_unicode` (
+  `Judul` varchar(100) DEFAULT NULL,
+  `Judul2` varchar(200) DEFAULT '',
+  `Artis` varchar(100) DEFAULT '',
+  `Artis2` varchar(100) DEFAULT NULL,
+  `Jenis` varchar(50) DEFAULT NULL,
+  `Volume` varchar(50) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
